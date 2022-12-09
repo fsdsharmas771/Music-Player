@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player 1</title>
+    <link rel="stylesheet" href="Images/styles.css">
+    <script src="https://kit.fontawesome.com/5bd46391e5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="body-header">
+        <img src="Images/logo.png" id="logo">
+        <span id="favourites">Favourites</span>
+        <div id="search-bar">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <input type="text" placeholder="Search">
+            <span><i class="fa-solid fa-microphone"></i></span>
+        </div>
+        <span id="bell-icon"><i class="fa-solid fa-bell"></i></span>
+        <img src="Images/header-right-image.jpeg" id="header-right-image">
+    </header>
+    <main>
+        <div id="main-display">
+            <img src="Images/Jhaanjar.jpg">
+            <img src="Images/295.jpg">
+            <img src="Images/sohni-sohni.jpeg">
+        </div>
+        <div id="latest-release">
+            <div>
+                <div class="song-container">
+                    <div id="play-button"><a href="#bottom-music-player"><i class="fa-solid fa-play"></i></a></div>
+                    <img src="Images/Chann-Sitare.jpg">
+                    <div class="song-details">
+                        <span class="song-name">Chann-Sitare</span>
+                        <span class="singer">Ammy Virk</span>
+                    </div>
+                    <div class="down-list-icon">
+                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                        <span>4:40</span>
+                    </div>
+                </div>
+                <div class="song-container">
+                    <img src="Images/Moonlight.jpg">
+                    <div class="song-details">
+                        <span class="song-name">Moonlight</span>
+                        <span class="singer">Harnoor</span>
+                    </div>
+                    <div class="down-list-icon">
+                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                        <span>4:40</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="song-container">
+                    <img src="Images/Mitti-Di-Khushboo.jpg">
+                    <div class="song-details">
+                        <span class="song-name">Mitti-Di-Khushboo</span>
+                        <span class="singer">Ayushman Khurana</span>
+                    </div>
+                    <div class="down-list-icon">
+                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                        <span>4:40</span>
+                    </div>
+                </div>
+                <div class="song-container">
+                    <img src="Images/Chan vakhya.jpeg">
+                    <div class="song-details">
+                        <span class="song-name">Chan-Vekhya</span>
+                        <span class="singer">Harnoor</span>
+                    </div>
+                    <div class="down-list-icon">
+                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                        <span>4:40</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="popular-artists">
+            <span>Popular Artists</span>
+            <div class="singer-container">
+                <div>
+                    <img src="Images/Ammy-Virk.jpg" class="border-radius">
+                    <div>Ammy-Virk</div>
+                </div>
+                <div>
+                    <img src="Images/gurnam.jpeg" class="border-radius">
+                    <div>Gurnam Bhullar</div>
+                </div>
+                <div>
+                    <a href="artist-playlist.html" target="_blank" id="artist-playlist-button"><i class="fa-solid fa-play"></i></a>
+                    <img src="Images/nushrat.jpeg" class="border-radius">
+                    <div>NFAK</div>
+                </div>
+                <div>
+                    <img src="Images/kumar shanu.jpg" class="border-radius">
+                    <div>Kumar Shanu</div>
+                </div>
+                <div>
+                    <img src="Images/kishor.jpg" class="border-radius">
+                    <div>Kishor Kumar</div>
+                </div>
+                <div>
+                    <img src="Images/alka yagnik.jpeg" class="border-radius">
+                    <div>Alka Yagnik</div>
+                </div>
+            </div>
+        </div>
+        <div id="station">
+            <div class="station-container">
+                <div>
+                    <img src="Images/music station.png">
+                </div>
+                <div>
+                    <img src="Images/love.jpg" class="border-radius">
+                </div>
+                <div>
+                    <img src="Images/radio.jpg" class="border-radius">
+                </div>
+                <div>
+                    <img src="Images/Chill.jpeg" class="border-radius">
+                </div>
+                <div>
+                    <img src="Images/workout.jpg" class="border-radius">
+                </div>
+                <div>
+                    <img src="Images/rock.jpg" class="border-radius">
+                </div>
+                <div>
+                    <img src="Images/pop.jpg" class="border-radius">
+                </div>
+            </div>
+        </div>
+        <div class="display">
+            <div>
+                <img src="Images/party.jpeg" id="party">
+            </div>
+            <div>
+                <img src="Images/electronic.jpg" id="electronic">
+            </div>
+            <div>
+                <img src="Images/road trip.jpeg" id="road-trip">
+            </div>
+        </div>
+        <div>
+            <span>Latest Punjabi</span>
+            <div class="latest">
+                <div class="song">
+                    <div class="image"><img src="Images/filhal2.jpg"></div>
+                    <div class="song-details">
+                        <span class="song-name">Filhal 2</span>
+                        <span class="singer">Ammy-Virk</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <div class="image"><img src="Images/dil tod ke.jpg"></div>
+                    <div class="song-details">
+                        <span class="song-name">Dil Tod Ke</span>
+                        <span class="singer">B Parak</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <div class="image"><img src="Images/dil chahte ho.jpg"></div>
+                    <div class="song-details">
+                        <span class="song-name">Dil Chahte Ho</span>
+                        <span class="singer">Jubin Nautiyal</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <div class="image"><img src="Images/thodi jgha.jpg"></div>
+                    <div class="song-details">
+                        <span class="song-name">Todhi Jagha</span>
+                        <span class="singer">Arijit Singh</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <div class="image"><img src="Images/jab tak.jpg"></div>
+                    <div class="song-details">
+                        <span class="song-name">Jab Tak</span>
+                        <span class="singer">Dhvani Bhanushali</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <div class="image"><img src="Images/pal.jpeg"></div>
+                    <div class="song-details">
+                        <span class="song-name">Pal</span>
+                        <span class="singer">Shreya Ghosal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <span>Latest Punjabi</span>
+            <div class="latest">
+                <div class="song">
+                    <div class="image"><img src="Images/filhal2.jpg"></div>
+                    <div class="song-details">
+                        <span class="song-name">Filhal 2</span>
+                        <span class="singer">Ammy-Virk</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <div class="image"><img src="Images/dil tod ke.jpg"></div>
+                    <div class="song-details">
+                        <span class="song-name">Dil Tod Ke</span>
+                        <span class="singer">B Parak</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <div class="image"><img src="Images/dil chahte ho.jpg"></div>
+                    <div class="song-details">
+                        <span class="song-name">Dil Chahte Ho</span>
+                        <span class="singer">Jubin Nautiyal</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <div class="image"><img src="Images/thodi jgha.jpg"></div>
+                    <div class="song-details">
+                        <span class="song-name">Todhi Jagha</span>
+                        <span class="singer">Arijit Singh</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <div class="image"><img src="Images/jab tak.jpg"></div>
+                    <div class="song-details">
+                        <span class="song-name">Jab Tak</span>
+                        <span class="singer">Dhvani Bhanushali</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <div class="image"><img src="Images/pal.jpeg"></div>
+                    <div class="song-details">
+                        <span class="song-name">Pal</span>
+                        <span class="singer">Shreya Ghosal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <span>
+            <h2>Queue</h2>
+            <a href="#"><button type="menu">Queue<i class="fa-solid fa-chevron-down"></i></button></a>
+        </span>
+        <div id="queue-container">
+            <div class="song-container queue">
+                <span class="serial-no">01</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">02</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">03</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">04</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">05</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">06</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">07</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">08</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">09</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">10</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">11</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">12</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">13</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">14</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">15</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">16</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">17</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">18</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">19</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">20</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">21</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">22</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">23</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+            <div class="song-container queue">
+                <span class="serial-no">24</span>
+                <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+                <div class="down-list-icon heart">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div id="bottom-music-player">
+        <div>
+            <img src="Images/Chann-Sitare.jpg">
+                <div class="song-details queue-song-details">
+                    <span class="song-name">Chann-Sitare</span>
+                    <span class="singer">Ammy Virk</span>
+                </div>
+        </div>
+        <div>
+            <audio controls autoplay><source src="Audios/Moonlight - Harnoor.mp3" type="audio/ogg"></audio>
+            <!-- <audio controls><source src="Audios/Moonlight - Harnoor.mp3" type="audio/mpeg"></audio> -->
+        </div>
+        <div></div>
+    </div>
+</body>
+
+</html>
